@@ -163,7 +163,7 @@ class GuGuDan2{
 		    	int j = 1;
 		    	
 		    	while(i < 8){
-		    	System.out.println(+i+" * "+j+" = "+(i*j));
+		    	System.out.printf(+i+" * "+j+" = "+(i*j), '\t');
 		    	
 		    	j++;
 		    	
@@ -182,7 +182,7 @@ class GuGuDan2{
 		    	int j = 1;
 		    	
 		    	while(i < 8){
-		    	System.out.println(+i+" * "+j+" = "+(i*j));
+		    	System.out.printf(+i+" * "+j+" = "+(i*j), '\t');
 		    	
 		    	j++;
 		    	
